@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "J.T. Hill"
+title                    : "JT Hill"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "J.T. Hill"
+name                     : "JT Hill"
 description              : "A technical leader in FinTech lending"
 url                      : "https://jt-hill.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -113,9 +113,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "J.T. Hill"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Building tools for better credit analytics, pricing, and risk"
+  name             : "JT Hill"
+  avatar           : "/assets/images/headshot.jpg"
+  bio              : "Building and deploying data science tools for better credit analytics, pricing, and risk"
   #location         : "Somewhere"
   email            :
   links:
