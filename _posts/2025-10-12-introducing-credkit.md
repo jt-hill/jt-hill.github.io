@@ -2,13 +2,15 @@
 title: "Introducing Credkit"
 date: 2025-10-12
 ---
-# Introducing credkit: Consumer Loan Modeling Without the Pain
 
-I got tired of fighting with QuantLib to model simple mortgages. So I built something better.
+I got tired of fighting with QuantLib to model simple mortgages.
+So I built something easier.
 
 ## The Problem
 
-QuantLib is great for complex derivatives. But for simple amortizing consumer loans it's complete overkill. You spend more time wrestling with schedule builders and leg constructors than actually modeling the loan.
+QuantLib is great for complex derivatives. But for simple amortizing consumer
+loans it's complete overkill. You spend more time wrestling with schedule
+builders and leg constructors than actually modeling the loan.
 
 These are relatively simple instruments, so they should be similarly simple to model
 
@@ -37,11 +39,6 @@ That's it. No ceremony, no fighting with abstractions designed for exotic swaps.
 - Day count conventions, payment frequencies, business day calendars
 - Full amortization support (level payment, level principal, interest-only, bullet)
 
-**Decimal precision everywhere:**
-
-- No floating-point rounding errors
-- Financial calculations you can trust
-
 **Type-safe and immutable:**
 
 - Frozen dataclasses with full type hints
@@ -56,7 +53,8 @@ That's it. No ceremony, no fighting with abstractions designed for exotic swaps.
 
 ## Status (v0.2.0)
 
-148 passing tests. Works end-to-end: create a loan → generate schedule → calculate NPV.
+148 passing tests. Works end-to-end: create a loan → generate schedule →
+calculate NPV.
 
 Currently USD-only, focused on US consumer lending (mortgages, auto, personal loans).
 
@@ -74,8 +72,9 @@ pip install credkit
 
 GitHub: [github.com/jt-hill/credkit](https://github.com/jt-hill/credkit)  
 PyPI: [pypi.org/project/credkit](https://pypi.org/project/credkit/)
-License: AGPL-3.0 (commercial options available)
+License: AGPL-3.0 ([other commercial options available](mailto:jth@jt-hill.com))
 
 ## Feedback?
 
-This is early. If you work in or near credit and have ideas or pain points, let me know. What would make your life easier?
+This is early. If you work in or near credit and have ideas or pain points,
+let me know. What would make your life easier?
