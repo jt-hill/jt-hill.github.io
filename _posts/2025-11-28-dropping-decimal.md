@@ -9,8 +9,9 @@ was not.
 
 ## Decimal is always right
 
-Every financial engineer should learn early: *never use floating point for
-money*. The classic example gets trotted out in every intro CS course:
+Every quant dev, financial data engineer, and fintech developer will learn
+early: *never use floating point for money*. The classic example gets trotted
+out in every intro CS course:
 
 ```python
 >>> 0.1 + 0.2
@@ -129,7 +130,7 @@ After 360 compound calculations, float64 has accumulated an error of 46
 billionths of a cent. When you round to pennies (which you have to do anyway,
 because that's what money actually is) they're identical.
 
-**Portfolio interest calculation (1000 loans × 360 payments each):**
+**Portfolio interest calculation (1000 loans x 360 payments each):**
 
 ```markdown
 Decimal total: $348,905,505.58

@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "JT Hill"
   avatar           : "/assets/images/headshot.jpg"
-  bio              : "Building and deploying data science tools for better credit analytics, pricing, and risk"
+  bio              : "Building quant tools for better credit analytics, pricing, and risk management"
   #location         : "Somewhere"
   email            :
   links:
