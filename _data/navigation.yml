@@ -8,4 +8,6 @@ main:
 #  - title: "Writing"
 #    url: /posts/
   - title: "credkit"
-    url: https://credkit.app
+    url: "https://github.com/jt-hill/credkit"
+  - title: "PyPI"
+    url: "https://pypi.org/project/credkit/"
